@@ -5,10 +5,63 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
 </head>
 <body>
+    <!-- Navegation Bar-->
+    <nav class="navbar">
+        <h1 class="logo"> ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./images/menu-button.png" alt="" class="menu-button">
+    </nav>
     
+    <header>
+        <div class="header-content">
+            <h2>Explore The colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+
+        </div>
+    </header>
+
+    <!-- EVENTS -->
+    <section>
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./images/image1.jpg" alt="" class="upcoming-imgs">
+                <h4>Everest Camp Trek</h4>
+                <p>The Everest region is a beautiful place to visit and a trek to Everest Base Camp is an ambition for many trekkers.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./images/image2.jpg" alt="" class="upcoming-imgs">
+                <h4>Walking Holidays</h4>
+                <p>Walking holidays are a great way to exercise and explore the world at the same time, a win, win situation. Let's do it!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        const menuButton =document.querySelector('.menu-button')
+        const navlinks= document.querySelector('.nav-links')
+
+        menuButton.addEventListener('click',()=>{
+            navlinks.classList.toggle('.mobile-menu')
+        })
+    </script>
 </body>
 </html>
