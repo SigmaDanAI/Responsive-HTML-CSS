@@ -21,7 +21,12 @@ ul{
     font-weight: bold;
 }
 
+body{
+    font-family: Poppins;
+}
+
 body , html{
+
     overflow-x: hidden;
 }
 
@@ -190,8 +195,15 @@ p{
     width: 50%
 }  
 
+
+
 .content-col{
     width: 40%;
+}
+
+.tours .ctn{
+    
+    
 }
 
 .image-col{
@@ -221,10 +233,6 @@ p{
 .content-col p{
     padding: 0;
     margin: 30px auto;
-}
-
-.content-col .ctn{
-    margin-left: -100px;    
 }
 
 .footer{
@@ -294,6 +302,12 @@ p{
     .tours .col{
         width:100%;
     }
+
+    .tours .ctn{
+        text-align: center;
+    
+    }
+
     .image-gallery{
         justify-content: center;
         align-items: center;
