@@ -156,6 +156,7 @@ p{
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    
 }
 
 .explore-content{
@@ -165,6 +166,8 @@ p{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin: auto;
+    text-align: center;
 }
 
 .explore-content h1{
